@@ -1,0 +1,278 @@
+*::-moz-selection {
+  background: rgba(152, 191, 195, 0.6);
+  overflow: hidden;
+}*::selection {
+  background: rgba(152, 191, 195, 0.6);
+  overflow: hidden;
+}
+
+body {
+  background: #131313;
+  height: 100%;
+}
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+body main section {
+  width: 44.4%;
+  background: transparent;
+  color: white;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+  gap: 20px;
+  text-align: center;
+}
+body main section h2 {
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+body main section .signup-img {
+  width: 100%;
+  max-width: 310px;
+}
+body main section .signup-img img {
+  width: 100%;
+}
+body main section footer {
+  font-size: 0.87em;
+  font-weight: 200;
+}
+body main .form-options {
+  width: 55.6%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  background: white;
+  border-radius: 15px 0px 0px 15px;
+  font-size: 0.85em;
+}
+body main .form-options header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 93%;
+  margin-top: 5px;
+}
+body main .form-options header .globe-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+body main .form-options header .globe-display select {
+  all: unset;
+  cursor: pointer;
+  color: #737373;
+}
+body main .form-options header .globe-display .wordl {
+  background: #737373;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 20px;
+}
+body main .form-options header .globe-display .wordl img {
+  width: 100%;
+  cursor: pointer;
+}
+body main .form-options header .options-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+body main .form-options header .options-2 .log-button a {
+  text-decoration: none;
+}
+body main .form-options header .options-2 .log-button a > button {
+  all: unset;
+  height: 28px;
+  width: 100%;
+  padding: 0px 4.5px;
+  font-size: 0.84em;
+  text-align: center;
+  border: 1px solid #737373;
+  color: black;
+}
+body main .form-options nav {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+body main .form-options nav h1 a {
+  text-decoration: none;
+  color: #131313;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+body main .form-options nav h2 {
+  color: rgba(19, 19, 19, 0.55);
+  font-size: 2vw;
+  font-weight: 200;
+  line-height: 35px;
+}
+body main .form-options nav .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 10px;
+}
+body main .form-options nav .social .subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(19, 19, 19, 0.4);
+  border-radius: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 260px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.1em;
+  padding: 7.5px 0px;
+}
+body main .form-options nav .social .subscribe a {
+  text-decoration: none;
+  color: rgba(19, 19, 19, 0.7);
+}
+body main .form-options nav .social .subscribe:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 80%;
+}
+body main .form-options nav .social .subscribe .social-img {
+  width: 100%;
+  max-width: 26px;
+}
+body main .form-options nav .social .subscribe .social-img img {
+  width: 100%;
+}
+body main .form-options nav .social .o {
+  margin-top: 10px;
+  color: rgba(19, 19, 19, 0.7);
+}
+body main .form-options nav .social .email-button {
+  margin-top: 5px;
+  border-radius: 4px;
+  color: white;
+  background: #262627;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+body main .form-options nav .social .email-button:hover {
+  background: #5C5C5E;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+@media (max-width: 710px) {
+  body main section {
+    display: none;
+  }
+  body main .form-options {
+    width: 100%;
+  }
+  body main .form-options header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 93%;
+    margin-top: 5px;
+  }
+  body main .form-options nav {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}

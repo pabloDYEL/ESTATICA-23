@@ -1,0 +1,219 @@
+*::-moz-selection {
+  background: rgba(237, 184, 202, 0.6);
+}*::selection {
+  background: rgba(237, 184, 202, 0.6);
+}
+
+.home {
+  width: 100%;
+  max-width: 50px;
+  margin-left: 10px;
+}
+.home img {
+  width: 100%;
+}
+
+header {
+  width: 99%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #4C4C4C;
+  font-size: 0.8em;
+}
+header .right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-top: 2px;
+}
+header .right-header h3 {
+  font-weight: 400;
+}
+header .right-header .start-a {
+  border: 1px solid black;
+  padding: 7.5px 10px;
+}
+header .right-header .start-a a {
+  text-decoration: none;
+  color: black;
+}
+header a:visited {
+  color: black;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  place-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .containe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  width: 100%;
+  max-width: 265px;
+}
+main .containe-form .title {
+  text-align: center;
+}
+main .containe-form .title h1 {
+  font-size: 1.6em;
+  margin-bottom: 25px;
+}
+main .containe-form .title h2 {
+  font-size: 1.2em;
+  color: #4C4C4C;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+main form label {
+  margin-bottom: 5px;
+}
+main form a {
+  font-size: 0.83em;
+  color: rgba(76, 76, 76, 0.8);
+}
+main form input[type=Email] {
+  padding: 10px;
+  cursor: text;
+  font-size: 0.8em;
+  border: 1px solid rgba(76, 76, 76, 0.4);
+  border-radius: 2.5px;
+}
+main form input[type=Email]:hover {
+  border: 1px solid #4c4c4c;
+}
+main form input[type=Email]:focus {
+  border: 1px solid rgba(76, 76, 76, 0.4);
+  -webkit-box-shadow: 1px 1px 10px 3px #C7EEFA;
+          box-shadow: 1px 1px 10px 3px #C7EEFA;
+}
+main form input[type=password] {
+  padding: 10px;
+  cursor: text;
+  font-size: 0.8em;
+  border: 1px solid rgba(76, 76, 76, 0.4);
+  border-radius: 2.5px;
+}
+main form input[type=password]:hover {
+  border: 1px solid #4c4c4c;
+}
+main form input[type=password]:focus {
+  border: 1px solid rgba(76, 76, 76, 0.4);
+  -webkit-box-shadow: 1px 1px 10px 3px #C7EEFA;
+          box-shadow: 1px 1px 10px 3px #C7EEFA;
+}
+main button {
+  all: unset;
+  text-align: center;
+  background: #282829;
+  border-radius: 2.5px;
+  color: white;
+  font-size: 0.9em;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+main .either-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+  color: rgba(76, 76, 76, 0.9);
+  font-size: 0.85em;
+}
+main .either-option .middle-line {
+  border-top: 1.2px solid rgba(76, 76, 76, 0.4);
+  height: 1px;
+  width: 80px;
+}
+main .last-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  gap: 10px;
+}
+main .last-options .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: white;
+  border: 1px solid rgba(76, 76, 76, 0.8);
+  border-radius: 2.5px;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #4C4C4C;
+}
+main .last-options .options .social-img {
+  width: 100%;
+  max-width: 25px;
+}
+main .last-options .options .social-img img {
+  width: 100%;
+}
+main .last-options .last-a {
+  text-align: center;
+}
+main .last-options .last-a a {
+  color: #4C4C4C;
+  font-size: 0.8em;
+}
